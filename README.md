@@ -174,11 +174,4 @@ dist
 ---
 
 ## Developer
-
 Sena Kireker
-
-Near East University
-
-Computer Engineering
-
-2025
