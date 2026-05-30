@@ -12,6 +12,12 @@ https://postflow-senakireker.netlify.app
 
 ---
 
+## Project Screenshot
+
+![PostFlow](postflow.png)
+
+---
+
 ## GitHub Repository
 
 https://github.com/Senakireker/PostFlow
