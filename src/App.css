@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  background: #101014;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  border-left: 1px solid #2a2a2a;
+  border-right: 1px solid #2a2a2a;
+}
+
+.header {
+  padding: 25px;
+  border-bottom: 1px solid #2a2a2a;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.header p {
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.composer {
+  padding: 20px;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.composer input,
+.composer select,
+.composer textarea {
+  background: #18181c;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.composer textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+.composer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.limit {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.danger {
+  color: #ff5c5c;
+}
+
+.composer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.composer button {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: #333 !important;
+  color: white !important;
+}
+
+.empty-feed {
+  text-align: center;
+  padding: 50px 20px;
+  color: #aaa;
+}
+
+.empty-feed h2 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.post {
+  display: flex;
+  gap: 12px;
+  padding: 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post-top span {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.post-content p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.post-content small {
+  color: #777;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.actions button {
+  background: transparent;
+  color: #aaa;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.actions button:hover {
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .app {
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 34px;
+  }
+}
+.stats {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.tools {
+  padding: 16px 20px;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  gap: 10px;
+}
+
+.tools input,
+.tools select {
+  background: #18181c;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.tools button {
+  background: #f5f5f5;
+  color: #000;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tools button:hover {
+  background: #ddd;
+}
+
+@media (max-width: 650px) {
+  .tools {
+    flex-direction: column;
+  }
+}
